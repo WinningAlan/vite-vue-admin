@@ -6,3 +6,10 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+//设置全局变量
+interface ImportMetaEnv {
+  readonly VITE_BASE_URL: string
+}
+interface ImportMeta {
+  readonly env: ImportMetaEnv
+}

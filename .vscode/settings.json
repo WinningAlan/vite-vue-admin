@@ -3,5 +3,27 @@
     "source.fixAll": true
   },
   "editor.formatOnSave": true, // 开启自动保存
-  "editor.defaultFormatter": "esbenp.prettier-vscode" // 默认格式化工具选择prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // 默认格式化工具选择prettier
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  // // 自动修复css
+  // "[css]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //   "editor.formatOnSave": true
+  // },
+  // "[less]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //   "editor.formatOnSave": true
+  // },
+
+  "eslint.validate": [
+    "javascript",
+    "html",
+    "javascriptreact", // react jsx
+    "typescript", // ts
+    "typescriptreact" // react tsx
+  ]
+  // "stylelint.validate": ["css", "less", "postcss", "scss", "vue", "sass"],
+  // "eslint.alwaysShowStatus": true
 }
